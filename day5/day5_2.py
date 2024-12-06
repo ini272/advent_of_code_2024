@@ -9,7 +9,6 @@ for line in sections:
         num1, num2 = line.split('|')
         page_order.append((int(num1), int(num2)))
 
-# Process each line like "75,47,61,53,29" into lists
 pages_to_produce = []
 for line in sections:
     if ',' in line:
